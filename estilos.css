@@ -1,0 +1,1149 @@
+/*ESTILOS GENERALES*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #FEF1CF;
+    color: #301208;
+    font-family: "Neue Haas Grotesk Display Pro", Arial, sans-serif;
+}
+
+/*HEADER*/
+header {
+    width: 100%;
+}
+
+.navegacion {
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+}
+
+.navegacion ul {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+
+.navegacion a {
+    color: #301208;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.logo {
+    font-family: "Joti One", serif;
+    color: #F25D33 !important;
+    text-decoration: none;
+    font-size: 3em !important;
+    line-height: 1;
+}
+
+/*ICONOS DEL HEADER*/
+.buscar-nav,
+.usuario-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buscar-nav .material-icons,
+.usuario-nav .material-icons {
+    font-size: 24px;
+    color: #301208;
+}
+
+/*INICIO - HERO*/
+.hero {
+    width: 100%;
+    text-align: center;
+    padding: 0 0 45px;
+}
+
+.hero-imagen {
+    width: 75%;
+    max-width: 1200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-family: "Joti One", serif;
+    color: #F25D33;
+    font-size: 3em;
+    margin-top: -5px;
+}
+
+.bajada-hero {
+    color: #F25D33;
+    margin: 8px 0 18px;
+    font-size: 1em;
+}
+
+/*BOTONES*/
+.boton {
+    display: inline-block;
+    background-color: #CD7397;
+    color: #301208;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 0.8em;
+}
+
+.boton-chico {
+    padding: 8px 25px;
+}
+
+/*SOBRE PEAK*/
+.sobre-peak {
+    width: 100%;
+}
+
+.fondo-derretido {
+    width: 100%;
+    background-image: url("img-/derretido-marron.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+}
+
+.contenido-sobre {
+    width: 85%;
+    min-height: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bocha {
+    width: 200px;
+    max-width: 100%;
+}
+
+.bochas-izquierda,
+.bochas-derecha {
+    width: 30%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-sobre {
+    width: 45%;
+    color: #FEF1CF;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+/*PRODUCTOS*/
+.productos {
+    width: 94%;
+    margin: auto;
+    padding: 55px 0 45px;
+    text-align: center;
+}
+
+.productos h2 {
+    font-family: "Joti One", serif;
+    color: #F25D33;
+    font-size: 2.2em;
+}
+
+.subtitulo {
+    color: #F25D33;
+    margin: 7px 0 12px;
+}
+
+.contenedor-productos {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.producto {
+    width: 25%;
+}
+
+.producto img {
+    width: 90%;
+    max-width: 330px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.producto h3 {
+    color: #F25D33;
+    font-size: 1em;
+    font-weight: normal;
+    margin-top: 3px;
+}
+
+.producto p {
+    color: #F25D33;
+    font-size: 0.9em;
+}
+
+/*FRANJA DE COLORES*/
+.franja-colores {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+/*PEAK DE LA SEMANA*/
+.peak-semana {
+    width: 70%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 5px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.peak-semana-imagen {
+    width: 42%;
+    text-align: center;
+}
+
+.peak-semana-imagen img {
+    width: 100%;
+    max-width: 430px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.peak-semana-texto {
+    width: 50%;
+}
+
+.peak-semana-texto h2 {
+    font-family: "Joti One", serif;
+    color: #C4C754;
+    font-size: 2.3em;
+    line-height: 1.1em;
+    margin-bottom: 12px;
+}
+
+.peak-semana-texto p {
+    line-height: 1.4em;
+}
+
+.estrellas {
+    color: #D1CC50;
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    background-color: #D1CC50;
+    text-align: center;
+    overflow: hidden;
+}
+
+.montanas-footer {
+    width: 100%;
+    max-width: 100%;
+    height: 140px;
+    display: block;
+    object-fit: cover;
+    object-position: top;
+}
+
+.footer-contenido {
+    width: 70%;
+    margin: auto;
+    padding: 15px 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-menu {
+    width: 25%;
+}
+
+.footer-menu ul {
+    list-style: none;
+}
+
+.footer-menu li {
+    margin: 10px 0;
+}
+
+.footer-menu a {
+    color: #301208;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+
+.footer-centro {
+    width: 30%;
+}
+
+.logo-footer {
+    font-family: "Joti One", serif;
+    color: #F25D33;
+    text-decoration: none;
+    font-size: 2.5em;
+}
+
+.footer-centro p {
+    color: #F25D33;
+    font-size: 0.7em;
+    margin-top: 3px;
+}
+
+.footer-centro img {
+    width: 190px;
+    max-width: 100%;
+    display: block;
+    margin: 8px auto;
+}
+
+.copyright {
+    padding: 5px 0 10px;
+    font-size: 0.6em;
+}
+
+/*SABORES - HERO*/
+.hero-sabores {
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.hero-sabores h1 {
+    font-family: "Joti One", serif;
+    color: #301208;
+    font-size: 2.8em;
+    line-height: 1;
+}
+
+.hero-sabores p {
+    color: #301208;
+    font-size: 0.9em;
+    line-height: 1.3em;
+    margin-top: 10px;
+}
+
+.hero-sabores img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 15px;
+}
+
+/*SABORES - FONDO*/
+.fondo-lineas-sabores {
+    width: 100%;
+    background-image: url("img-/fondoderretido.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*SABORES - LINEAS*/
+.linea-sabores {
+    width: 100%;
+    min-height: 600px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.contenido-linea {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    padding: 45px 0 35px;
+}
+
+.linea-sabores h2 {
+    font-family: "Joti One", serif;
+    font-size: 2em;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.descripcion-linea {
+    width: 55%;
+    max-width: 700px;
+    margin: 0 auto 25px;
+    font-size: 0.9em;
+    line-height: 1.4em;
+}
+
+/*SABORES - PRODUCTOS*/
+.grid-sabores {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.sabor {
+    width: 25%;
+    text-align: center;
+}
+
+.sabor img {
+    width: 85%;
+    max-width: 270px;
+    height: 330px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.sabor h3 {
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.1em;
+    margin: 0;
+}
+
+.sabor p {
+    font-size: 0.85em;
+    line-height: 1.2em;
+    margin-top: 2px;
+}
+
+/*SABORES - PRO*/
+.linea-pro {
+    color: #FEF1CF;
+}
+
+.linea-pro .contenido-linea {
+    transform: translateY(-35px);
+}
+
+.linea-pro h2,
+.linea-pro h3,
+.linea-pro p {
+    color: #FEF1CF;
+}
+
+/*SABORES - PLANT*/
+.linea-plant {
+    color: #301208;
+}
+
+.linea-plant h2,
+.linea-plant h3,
+.linea-plant p {
+    color: #301208;
+}
+
+/*SABORES - PURE*/
+.linea-pure {
+    color: #CD7397;
+}
+
+.linea-pure h2,
+.linea-pure h3,
+.linea-pure p {
+    color: #CD7397;
+}
+
+/*RANKING*/
+.pagina-ranking {
+    background-color: #FEF1CF;
+    overflow: hidden;
+}
+
+.ranking-hero {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+.ranking-hero-imagen {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.ranking-franja {
+    width: 100%;
+    height: 34px;
+    background: repeating-linear-gradient(
+        90deg,
+        #C4C754 0px,
+        #C4C754 34px,
+        #CD7397 34px,
+        #CD7397 68px
+    );
+}
+
+/*RANKING - PEAK DE LA SEMANA*/
+.ranking-semana {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 40px 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.ranking-semana-producto {
+    width: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ranking-semana-pote {
+    width: 290px;
+    display: block;
+}
+
+.ranking-semana-info {
+    width: 420px;
+}
+
+.ranking-semana-info h1 {
+    font-family: "Joti One", serif;
+    color: #C4C754;
+    font-size: 38px;
+    line-height: 1.05;
+    margin: 0 0 22px;
+}
+
+.ranking-semana-info p {
+    color: #301208;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0 0 15px;
+}
+
+.ranking-estrellas-semana {
+    color: #C4C754;
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin: 10px 0 18px;
+}
+
+.ranking-boton {
+    display: inline-block;
+    background-color: #CD7397;
+    color: #301208;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*RANKING - CALIFICACIONES*/
+.ranking-calificar {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 35px 40px 90px;
+}
+
+.ranking-calificar-titulo {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.ranking-calificar-titulo h2 {
+    font-family: "Joti One", serif;
+    color: #F25D33;
+    font-size: 38px;
+    line-height: 1;
+    margin: 0;
+}
+
+.ranking-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 45px;
+    row-gap: 45px;
+}
+
+.ranking-producto {
+    text-align: center;
+}
+
+.ranking-producto img {
+    width: 100%;
+    max-width: 215px;
+    height: 240px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 5px;
+}
+
+.ranking-producto h3 {
+    color: #301208;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 2px;
+}
+
+.ranking-producto.ranking-pure h3 {
+    color: #CD7397;
+}
+
+.ranking-estrellas {
+    color: #D8D8D8;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+/*CONTACTO*/
+.contacto {
+    position: relative;
+    min-height: 780px;
+    background-color: #FEF1CF;
+    padding: 65px 20px 100px;
+    overflow: hidden;
+}
+
+.contacto-encabezado {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin: 0 auto 40px;
+}
+
+.contacto-encabezado h1 {
+    font-family: "Joti One", serif;
+    font-size: 64px;
+    line-height: 1;
+    color: #301208;
+    margin: 0 0 12px;
+}
+
+.contacto-encabezado p {
+    font-size: 24px;
+    line-height: 1.25;
+    color: #301208;
+    margin: 0;
+}
+
+/*FORMULARIO CONTACTO*/
+.formulario-contacto {
+    position: relative;
+    z-index: 2;
+    width: 700px;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.campo-contacto {
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.campo-contacto input,
+.campo-contacto textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background-color: #D9D9D9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: #301208;
+    padding: 20px;
+}
+
+.campo-contacto input {
+    height: 70px;
+}
+
+.campo-contacto textarea {
+    height: 240px;
+    resize: none;
+}
+
+.campo-contacto input::placeholder,
+.campo-contacto textarea::placeholder {
+    color: #F25D33;
+    opacity: 1;
+}
+
+.boton-enviar {
+    display: block;
+    margin: 42px auto 0;
+    border: none;
+    background-color: #CD7397;
+    color: #301208;
+    padding: 15px 45px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*BOCHAS CONTACTO*/
+.bocha-contacto {
+    position: absolute;
+    z-index: 1;
+    width: 145px;
+    height: auto;
+}
+
+.bocha-contacto-1 {
+    top: 115px;
+    left: 7%;
+}
+
+.bocha-contacto-2 {
+    top: 205px;
+    right: 6%;
+}
+
+.bocha-contacto-3 {
+    top: 470px;
+    left: 3%;
+}
+
+.bocha-contacto-4 {
+    top: 560px;
+    right: 7%;
+}
+
+/*MENSAJE ENVIADO*/
+.mensaje-enviado {
+    position: relative;
+    min-height: 650px;
+    background-color: #FEF1CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 20px 100px;
+    overflow: hidden;
+}
+
+.mensaje-enviado-contenido {
+    position: relative;
+    z-index: 2;
+    width: 700px;
+    max-width: 90%;
+    text-align: center;
+}
+
+.respuesta-contacto {
+    width: 650px;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.respuesta-contacto h1 {
+    font-family: "Joti One", serif;
+    font-size: 55px;
+    line-height: 1;
+    color: #F25D33;
+    margin-bottom: 25px;
+}
+
+.mensaje-gracias {
+    font-size: 21px;
+    line-height: 1.4;
+    color: #301208;
+    margin-bottom: 5px;
+}
+
+.mensaje-respuesta {
+    font-size: 19px;
+    line-height: 1.4;
+    color: #301208;
+    margin-bottom: 35px;
+}
+
+.mensaje-recibido {
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    background-color: #C8D9EC;
+    padding: 25px 35px;
+    margin: 0 auto 35px;
+    color: #301208;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.mensaje-recibido-titulo {
+    font-family: "Joti One", serif;
+    color: #F25D33;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.boton-volver {
+    margin-top: 20px;
+}
+
+.respuesta-error {
+    background-color: #C8D9EC;
+    padding: 50px;
+    max-width: 550px;
+}
+
+/*BOCHAS MENSAJE*/
+.bocha-mensaje {
+    position: absolute;
+    width: 135px;
+    height: auto;
+    z-index: 1;
+}
+
+.bocha-mensaje-1 {
+    top: 80px;
+    left: 7%;
+}
+
+.bocha-mensaje-2 {
+    top: 130px;
+    right: 7%;
+}
+
+.bocha-mensaje-3 {
+    bottom: 80px;
+    left: 4%;
+}
+
+.bocha-mensaje-4 {
+    bottom: 60px;
+    right: 5%;
+}
+
+/*REGISTRO*/
+.pagina-registro {
+    margin: 0;
+    padding: 0;
+    background-color: #FEF1CF;
+}
+
+.registro {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-color: #FEF1CF;
+}
+
+.registro-imagen {
+    width: 40%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.registro-imagen img {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    object-fit: cover;
+}
+
+.registro-contenido {
+    width: 60%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 45px 11%;
+}
+
+.logo-registro {
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Joti One", serif;
+    font-size: 64px;
+    color: #F25D33;
+    text-decoration: none;
+}
+
+.registro-titulo {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.registro-titulo h1 {
+    font-family: "Joti One", serif;
+    font-size: 45px;
+    line-height: 1;
+    color: #F25D33;
+    margin: 0 0 10px;
+}
+
+.registro-titulo p {
+    font-size: 25px;
+    color: #F25D33;
+    margin: 0;
+}
+
+/*FORMULARIO REGISTRO*/
+.formulario-registro {
+    width: 100%;
+    text-align: center;
+}
+
+.campo-registro {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.campo-registro input {
+    width: 100%;
+    height: 78px;
+    border: none;
+    outline: none;
+    background-color: #D9D9D9;
+    padding: 0 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #301208;
+}
+
+.campo-registro input::placeholder {
+    color: #F25D33;
+    opacity: 1;
+}
+
+.boton-registro {
+    border: none;
+    background-color: #CD7397;
+    color: #301208;
+    padding: 16px 35px;
+    margin-top: 5px;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ya-cuenta {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #301208;
+}
+
+.ya-cuenta a {
+    color: #F25D33;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*RESULTADO DEL REGISTRO*/
+.registro-exitoso,
+.registro-error {
+    min-height: 100vh;
+    background-color: #FEF1CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensaje-registro {
+    background-color: #C8D9EC;
+    width: 500px;
+    padding: 60px 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.mensaje-registro h1 {
+    color: #F25D33;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.mensaje-registro p {
+    color: #301208;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.mensaje-registro .subtexto {
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.mensaje-registro a {
+    display: inline-block;
+    background-color: #CD7397;
+    color: #301208;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #301208;
+    border-radius: 8px;
+}
+/* ESTRELLAS DEL RANKING */
+
+.ranking-producto .ranking-estrellas {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 5px;
+}
+
+.ranking-producto .ranking-estrellas input {
+    display: none;
+}
+
+.ranking-producto .ranking-estrellas label {
+    font-size: 32px;
+    color: #D4CCB9;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.ranking-producto .ranking-estrellas label:hover,
+.ranking-producto .ranking-estrellas label:hover ~ label,
+.ranking-producto .ranking-estrellas input:checked ~ label {
+    color: #C4C754;
+}
+
+/* BOTON CALIFICAR */
+
+.boton-calificar {
+    display: block;
+    margin: 15px auto 0;
+    padding: 12px 28px;
+    background-color: #CD7397;
+    color: #301208;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.boton-calificar:hover {
+    background-color: #F25D33;
+}
+
+/* USUARIO NAVEGACION */
+
+.usuario-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.usuario-nav .material-icons {
+    font-size: 25px;
+}
+
+.nombre-usuario {
+    font-size: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* SECCION ACTIVA */
+.navegacion ul li a.activo {
+    color: #F25D33 !important;
+}
+/* SECCION ACTIVA */
+
+.navegacion ul li a.activo {
+    color: #F25D33 !important;
+}
+
+/* ALINEACION DEL MENU */
+
+.navegacion ul {
+    align-items: center;
+}
+
+.navegacion ul:last-child {
+    align-items: center;
+}
+
+.navegacion ul:last-child li {
+    display: flex;
+    align-items: center;
+}
+
+/* HOVER NAVEGACION */
+
+.navegacion ul li a {
+    transition: color 0.3s;
+}
+
+.navegacion ul li a:hover {
+    color: #F25D33;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.navegacion ul li a.activo {
+    color: #F25D33;
+}
+
+
+/* HOVER PRODUCTOS */
+
+.producto img,
+.sabor img,
+.ranking-producto img {
+    transition: transform 0.3s;
+}
+
+.producto img:hover,
+.sabor img:hover,
+.ranking-producto img:hover {
+    transform: scale(1.07);
+}
+
+
+/* HOVER BOTONES */
+
+.boton,
+.boton-registro,
+.boton-enviar,
+.boton-calificar,
+.ranking-boton,
+.boton-volver {
+    transition: background-color 0.3s;
+}
+
+.boton:hover,
+.boton-registro:hover,
+.boton-enviar:hover,
+.boton-calificar:hover,
+.ranking-boton:hover,
+.boton-volver:hover {
+    background-color: #F25D33;
+}
